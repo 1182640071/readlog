@@ -1,0 +1,4 @@
+20:45:12.486 [Thread-13] ERROR com.guodu.qxt.ipManager.WarningToDBThread [65] - [WarningToDBThread] -- ERROR
+java.lang.NullPointerException
+	at com.guodu.qxt.dbmanager.WarningToDB.addCommonIp(WarningToDB.java:114) ~[http_netty_8000-2.0.0.jar:?]
+	at com.guodu.qxt.ipManager.WarningToDBThread.run(WarningToDBThread.java:58) [http_netty_8000-2.0.0.jar:?]
